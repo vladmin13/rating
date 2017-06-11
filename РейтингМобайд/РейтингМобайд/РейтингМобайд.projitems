@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>ae3a7c75-60ff-4b2e-945c-6e08c8a2db73</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>РейтингМобайд</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ISendToServer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MyInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Person.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProgClass\Dostigenie.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProgClass\Group.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProgClass\Lesson.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProgClass\Predmet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProgClass\ServerObj.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProgClass\Zanatie.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Server.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Student.cs" />
+  </ItemGroup>
+</Project>
